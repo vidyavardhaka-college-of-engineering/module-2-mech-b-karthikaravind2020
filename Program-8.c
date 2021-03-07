@@ -15,15 +15,16 @@ int main(){
   printf("enter an integer value:");
   scanf("%d",&key);
   
-    for(i=0;i<n;i++){
+    for(i=0;i<n;i++)
+    {
   if(key==a[i]) //missing code
   {
     //flag=1;
-    i++;
+    c++;
   }
     }
    printf("The number of times the  key element  is repeated  is %d",c);//missing code
-  
+    
     
     return(0);
 }
