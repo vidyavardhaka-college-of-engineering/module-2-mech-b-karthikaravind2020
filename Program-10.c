@@ -9,7 +9,7 @@ int main()
     int arr[100], n, i, small, large;
     printf("Enter how many values you want to read and values");
     scanf("%d", &n);
-    printf("enter the value of a[%d] :",i);
+    printf("enter the value of a :");
 
     for (i = 0; i < n; i++)
     {
@@ -33,8 +33,8 @@ int main()
         }
     }
 
-    printf("The largest element of the array = %d", large);
-    printf("The smallest element of the array = %d",small);
+    printf("The largest and smallest elements are %d and %d", large,small);
+    
 
     return 0;
 }

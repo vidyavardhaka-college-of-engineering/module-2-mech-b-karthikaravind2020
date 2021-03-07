@@ -19,7 +19,7 @@ int main(){
   if(key==a[i]) //missing code
   {
     //flag=1;
-    c++;
+    i++;
   }
     }
    printf("The number of times the  key element  is repeated  is %d",c);//missing code
